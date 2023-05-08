@@ -5,7 +5,7 @@ import cpw.mods.fml.common.event.{FMLInitializationEvent, FMLPreInitializationEv
 import cpw.mods.fml.common.{Loader, Mod}
 import org.apache.logging.log4j.{LogManager, Logger}
 
-@Mod(modid = ArrowJumpCritical.MODID, useMetadata = true, modLanguage = "scala")
+@Mod(modid = ArrowJumpCritical.MODID, useMetadata = true, modLanguage = "scala", acceptableRemoteVersions = "*")
 object ArrowJumpCritical {
   private var logger: Logger = _
   final val MODID = "arrowjumpcrit"
